@@ -1,0 +1,8 @@
+# backend/requirements.txt
+fastapi-cache2[redis]
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+httpx[http2]==0.24.1
+python-dotenv==1.0.0
+pydantic==1.10.11
+PyMuPDF==1.22.5  # fitz for PDF parsing
